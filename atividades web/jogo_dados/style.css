@@ -1,0 +1,154 @@
+﻿/* ESTILOS */
+/* ----------------------------------------- */
+body {
+    background: #f3f3f3;
+    font-family: 'Ubuntu', Arial, Verdana;
+    font-size: 100%;
+    color: #565656;
+}
+
+:focus {
+    outline: 0;
+}
+
+::-moz-selection {
+    background: #535353;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::selection {
+    background: #535353;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+a, a img {
+    border: none;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#main {
+}
+
+header {
+    height: 80px;
+    padding: 10px 0;
+}
+
+header h1 {
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 28px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    margin: 25px 0 0 20px;
+    text-shadow: 2px 2px 0px #fff;
+}
+
+nav .regras-jogo {
+    margin: 25px 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav .regras {
+    border: 1px solid #909090;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+nav .regras li {
+    margin: 3px 0;
+    font-size: 12px;
+    list-style: none;
+}
+
+#canvas {
+    background: #fff;
+    margin: 15px 0;
+    -moz-box-shadow: 0px 0px 6px #9c9c9c;
+    -webkit-box-shadow: 0px 0px 6px #9c9c9c;
+    box-shadow: 0px 0px 6px #9c9c9c;
+}
+
+#canvas:hover {
+    -moz-box-shadow: 0px 0px 16px #9c9c9c;
+    -webkit-box-shadow: 0px 0px 16px #9c9c9c;
+    box-shadow: 0px 0px 16px #9c9c9c;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    float: left;
+    border: 1px solid #565656;
+    padding: 4px;
+    margin: 0 20px;
+    color: #565656;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-box-shadow: 0px 0px 1px #676767;
+    -webkit-box-shadow: 0px 0px 1px #676767;
+    box-shadow: 0px 0px 1px #676767;
+}
+
+button:hover {
+    -moz-box-shadow: 0px 0px 6px #9c9c9c;
+    -webkit-box-shadow: 0px 0px 6px #9c9c9c;
+    box-shadow: 0px 0px 6px #9c9c9c;
+}
+
+#f {
+    margin: 15px 0;
+}
+
+.dados .btn {
+}
+
+#f input[type="text"] {
+    background: none;
+    display: block;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #565656;
+}
+
+footer {
+    padding: 30px 0;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0 20px;
+}
+
+footer a {
+    color: #565656;
+}
+
+footer a:hover {
+    background: #565656;
+    color: #fff;
+}

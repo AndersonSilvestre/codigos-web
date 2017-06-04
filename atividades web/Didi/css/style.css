@@ -1,0 +1,77 @@
+/*Add transição*/
+.transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+ 
+#gameStage{
+    margin: 10px auto;
+    =width: 318px;
+}
+ 
+#score{
+    margin: 10px auto;
+    =width: 318px;
+}
+ 
+.clear{
+    clear:both;
+}
+ 
+.itemGrid{
+    width:150px;
+    height:150px;
+    float:left;
+    margin:2px;
+    background: #65A1FF;
+    border:1px solid blue;
+}
+ 
+ .itemGrid.noEvent{
+    background: #FFF;
+    border:1px solid #FFF;
+}
+ 
+ .itemGrid.noEvent#circle, .itemGrid.noEvent#cross{
+    border:1px solid #EFEFEF;
+    margin-bottom:20px;
+    font-size: 90px;
+    font-family: arial, verdana;
+    text-align: center;
+}
+ 
+ .itemGrid.noEvent#msg{
+    border:1px dashed #DDD;
+    margin-bottom:20px;
+    font-size: 90px;
+    font-family: arial, verdana;
+    margin-left: 20px;
+    width: auto;
+    padding:0 5px;
+    display:none;
+}
+ 
+ .itemGrid.circle{
+    background-image: url(../image/didi.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+ 
+ .itemGrid.cross{
+    background-image: url(../image/pao.png);
+    background-size: 90%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+ 
+ .itemGrid:hover{
+    background-color: #6D7BFF;
+}
+ 
+ .itemGrid.noEvent:hover{
+    background-color: #FFF;
+}

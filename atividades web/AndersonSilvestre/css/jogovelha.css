@@ -1,0 +1,16 @@
+.campo{
+	background-color: blue;
+	color: #ffffff;
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.jogo{
+	margin:0 auto;
+	width:315px;
+	height:315px;
+}
+h1{
+	text-align:center;
+}
